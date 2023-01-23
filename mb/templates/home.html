@@ -1,0 +1,8 @@
+<h1>Message board homepage</h1>
+<ul>
+    {% for post in all_posts_list %}   <!--ObjectList (renamed to all_posts_list) is the name of the variable that ListView method (in views) returns -->
+       <li>{{post}}</li>
+
+    {% endfor %}
+
+</ul>
